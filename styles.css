@@ -48,14 +48,12 @@ body {
 }
 
 .product-description {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  padding-top: var(--padding-light);
+  padding: 1.5rem;
+  display: grid;
+  gap : 1rem;
 }
 
 .product-description .description {
-  margin: var(--spacing-light) 0;
   font-size: var(--text-size);
   font-family: var(--font-Montserrat);
   color: var(--font-grey);
@@ -69,8 +67,6 @@ body {
 }
 
 .discounted-price{
-  margin: var(--spacing-light) 0;
-  margin-right: var(--spacing-light);
   font-size: var(--font-large);
   color: var(--green-500);
   font-weight: var(--font-weight-500);
@@ -89,10 +85,9 @@ body {
   font-weight: 500;
   font-size: 15px;
   color: var(--font-grey);
-  margin: 15px 0;
+  /*margin: 15px 0;*/
 }
 .product-name{
-  margin: var(--spacing-light) 0;
   font-weight: var(--font-weight-700);
 }
 
@@ -130,9 +125,6 @@ img {
   }
   .mobile-image {
     display: none;
-  }
-  .product-description {
-    padding: 0 25px;
   }
   .product-name{
     font-size: 2.5rem;
